@@ -12,18 +12,26 @@ body{
   background-color: rgba(0, 0, 0, .5);
 }
 #slide1{
-  background:url('/images/1.png');
+  background:url('/images/11.png');
   background-size: cover;
 }
 #slide2{
-  background:url('/images/2.png');
+  background:url('/images/12.png');
   background-size: cover;
 }
 #slide3{
-  background:url('/images/3.png');
+  background:url('/images/11.png');
   background-size: cover;
 }
 
+#slider1{
+  background:url('/images/slider1.png');
+  background-size: cover;
+}
+#slider2{
+  background:url('/images/slider1.png');
+  background-size: cover;
+}
 
 #div1{
   height:100vh;
@@ -114,6 +122,30 @@ min-width: 35vw;
 }
 
 
-.wrapper2 > div{
-min-height: 65vw;
+.wrapper3 > div{
+min-height: 35vw;
+}
+
+
+.wrapper3{
+  display: flex;
+  max-height: 40vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.wrapper3::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+
+}
+
+.wrapper3::-webkit-scrollbar-thumb{
+  
+  background:rgba(0, 0, 0, .3);
+  border-radius: 20px;
+}
+
+
+.wrapper3 > div{
+min-width: 20vw;
 }

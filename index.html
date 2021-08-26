@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -124,16 +124,86 @@
                     <div class="display-6">
                         Our Exclusive Range
                     </div>
-                    
+
                 </div>
                 <div class="lead container pt-4 col-6 ms-0">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id omnis nostrum laborum ad facere dignissimos ducimus cum blanditiis soluta ipsam.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id omnis nostrum laborum ad facere
+                    dignissimos ducimus cum blanditiis soluta ipsam.
                 </div>
             </div>
         </div>
     </section>
+    <section class="bg-light container-fluid">
+        <div class="container-lg">
+            <div class="p-4 display-6">
+                <b>Premium</b>
+                Tiles and ceramics
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12"><img src="images/tile1.png" alt="" class="img-fluid"></div>
+                <div class="col-lg-8 col-12">
+                    <div class="ms-3 my-auto display-3">
+                        Ivory Floor Tiles
 
+                    </div>
+                    <div class="lead container pt-4 col-6 ms-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id omnis nostrum laborum ad facere
+                        dignissimos ducimus cum blanditiis soluta ipsam.
+                    </div>
+                </div>
+            </div>
+            <div class="pt-2 wrapper3">
+                <div class=" col-lg-2 pt-2">
+                    <img src="images/tile2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-2 p-2">
+                    <img src="images/tile3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12  col-lg-2 p-2">
+                    <img src="images/tile2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12  col-lg-2 p-2">
+                    <img src="images/tile3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-2 p-2">
+                    <img src="images/tile2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12  col-lg-2 p-2">
+                    <img src="images/tile3.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark container-fluid">
+        <div class="col-12 swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div id="slider1" class="swiper-slide">
+                    <div class="container-lg">
+                        <div class="row">
+                            <div class="heightfif col-12">
 
+                            </div>
+
+                            <div class="col-8 heightfif">
+                                <p class="display-3 text-white">
+                                    <b>German</b>
+                                    <br>
+                                    Perfected Design
+                                </p>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="slider2" class="swiper-slide"></div>
+                <div id="slider3" class="swiper-slide"></div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
 
 
 
@@ -178,17 +248,38 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 50,
+            centeredSlides: true,
             direction: "vertical",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
-        import ScrollBooster from 'scrollbooster';
-
-        new ScrollBooster({
-            viewport: document.querySelector('.viewport'),
-            scrollMode: 'transform'
+        var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 50,
+            centeredSlides: true,
+           
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
 
     </script>
