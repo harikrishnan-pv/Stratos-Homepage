@@ -12,29 +12,32 @@ body{
   background-color: rgba(0, 0, 0, .5);
 }
 #slide1{
-  background:url('/11.png');
+  background:url(https://foyr.com/learn/wp-content/uploads/2019/06/furniture-design-software.jpg);
   background-size: cover;
 }
 #slide2{
-  background:url('/12.png');
+  background:url(http://cdn.home-designing.com/wp-content/uploads/2015/12/bright-white-and-wood-kitchen.jpg);
   background-size: cover;
 }
 #slide3{
-  background:url('/11.png');
+  background:url(https://foyr.com/learn/wp-content/uploads/2019/06/furniture-design-software.jpg);
   background-size: cover;
 }
 
 #slider1{
-  background:url('/slider1.png');
+  background:url(http://cdn.home-designing.com/wp-content/uploads/2015/12/bright-white-and-wood-kitchen.jpg);
+
   background-size: cover;
 }
 #slider4{
-  background:url('/slider1.png');
+  background:url(https://foyr.com/learn/wp-content/uploads/2019/06/furniture-design-software.jpg);
+
   background-size: cover;
 }
 
 #slider5{
-  background:url('/slider2.png');
+  background:url(http://cdn.home-designing.com/wp-content/uploads/2015/12/bright-white-and-wood-kitchen.jpg);
+
   background-size: cover;
 }
 #div1{
