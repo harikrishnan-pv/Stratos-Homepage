@@ -77,6 +77,11 @@ body {
 .heightfif{
   height:65vh;
 }
+
+
+.heightfifty{
+  height:45vh;
+} 
 .scroll{
   height: 100vh;
 }
@@ -148,4 +153,22 @@ min-height: 35vw;
 
 .wrapper3 > div{
 min-width: 20vw;
+}
+#german{
+  max-height:100vh;
+}
+#footer{
+  height:75vh;
+  overflow-x: hidden;
+  width: 99vw;
+}
+#load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background-color:#e5eff1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
