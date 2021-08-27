@@ -12,27 +12,31 @@ body{
   background-color: rgba(0, 0, 0, .5);
 }
 #slide1{
-  background:url('/images/11.png');
+  background:url('/11.png');
   background-size: cover;
 }
 #slide2{
-  background:url('/images/12.png');
+  background:url('/12.png');
   background-size: cover;
 }
 #slide3{
-  background:url('/images/11.png');
+  background:url('/11.png');
   background-size: cover;
 }
 
 #slider1{
-  background:url('/images/slider1.png');
+  background:url('/slider1.png');
   background-size: cover;
 }
-#slider2{
-  background:url('/images/slider1.png');
+#slider4{
+  background:url('/slider1.png');
   background-size: cover;
 }
 
+#slider5{
+  background:url('/slider2.png');
+  background-size: cover;
+}
 #div1{
   height:100vh;
 }
